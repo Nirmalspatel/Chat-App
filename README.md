@@ -43,25 +43,10 @@ A full-stack real-time messaging platform built with modern web technologies.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/quicktalk.git
-cd quicktalk
+git clone https://github.com/Nirmalspatel/Chat-App.git
+cd Chat-App
 ```
 
-2. **Set up environment variables**
-
-Create `.env` in `/backend`:
-```
-PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/quicktalk
-JWT_SECRET=your_strong_secret_here
-JWT_EXPIRE=24h
-```
-
-Create `.env` in `/frontend`:
-```
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_SOCKET_URL=http://localhost:5000
-```
 
 3. **Install dependencies**
 ```bash
@@ -116,38 +101,8 @@ quicktalk/
 └── README.md
 ```
 
-## 🚀 Deployment
-
-**Option 1: Full Stack Deployment**
-- Frontend: Vercel/Netlify
-- Backend: Render/Railway
-- Database: MongoDB Atlas
-
-**Option 2: Docker Deployment**
-```bash
-docker-compose up --build
-```
-
-## 🛡 Security Best Practices
-- Always use HTTPS in production
-- Store secrets in environment variables
-- Implement rate limiting
-- Sanitize user input
-- Use CSRF protection
-
-## 🤝 How to Contribute
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-## 📄 License
-MIT License - see LICENSE file for details.
-
 ## 📬 Contact
 For support or questions:
 
-- **Email:** your.email@example.com
-- **GitHub:** [@yourusername](https://github.com/yourusername)
-- **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
+- **Email:** nirmalspatel3003@gmail.com
+- **GitHub:** [@Nirmal](https://github.com/Nirmalspatel)
